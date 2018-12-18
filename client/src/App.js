@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import WeatherDisplay from './components/WeatherDisplay';
+import TableDisplay from './components/TableDisplay/TableDisplay';
 
 class App extends Component {
 
@@ -9,7 +9,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <WeatherDisplay></WeatherDisplay>
+                <TableDisplay></TableDisplay>
             </div>
         );
     }
